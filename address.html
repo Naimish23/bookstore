@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            width: 90%;
+            background-color: #34495e;
+            border: none;
+            color: white;
+            padding: 7px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            align-self: center;
+            border-radius: 50%;
+        }
+
+        .button {
+            border-radius: 12px;
+        }
+
+        @media(max-width:1000px) {
+            .content {
+                width: 45;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="address.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form>
+                    Full name
+                    <input type="text" name="" placeholder="Enter name">
+                    Email
+                    <input type="text" name="" placeholder="Enter email">
+                    Address
+                    <input type="text" name="" placeholder="Enter address">
+                    city
+                    <input type="text" name="" placeholder="Enter city ">
+                    <div>
+                        <label id="zip">
+                            Zip code
+                            <input type="number" name="" placeholder="Zip code">
+                        </label>
+                        <label id="zip">
+                            state
+                            <select>
+                                <option>Choose State..</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Assam</option>
+                                <option>Go</option>
+                                <option>Gujrat</option>
+                                <option>Haryana</option>
+                                <option>Kashmir</option>
+                            </select>
+                        </label>
+                    </div>
+                </form>
+                <p>
+                    <a href="payment.html" class="button">NEXT</a>
+                </p>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

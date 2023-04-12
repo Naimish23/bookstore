@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .menu-bar {
+            background: rgb(3, 66, 125);
+            text-align: center;
+        }
+
+        .menu-bar ul {
+            display: inline-flex;
+            list-style: none;
+            color: rgb(10, 134, 172);
+        }
+
+        .menu-bar ul li {
+            width: 120px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .active,
+        .menu-bar ul li:hover {
+            background: rgb(10, 134, 172);
+            border-radius: 3px;
+        }
+
+        .menu-bar .fa {
+            margin-right: 8px;
+        }
+
+        .sub-manu-1 {
+            display: none;
+        }
+
+        .menu-bar ul li:hover .sub-manu-1 {
+            display: block;
+            position: absolute;
+            background: rgb(3, 66, 125);
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .menu-bar ul li:hover .sub-manu-1 ul {
+            display: block;
+            margin: 10px;
+        }
+
+        .menu-bar ul li:hover .sub-manu-1 ul li {
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted #fff;
+            border-radius: 0;
+            text-align: left;
+        }
+
+        .menu-bar ul li:hover .sub-manu-1 ul li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-bar ul li:hover .sub-manu-1 ul li a:hover {
+            color: #b2ff00;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url('hcksp50wkx9l4eb74uvc.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+        </ul>
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+        
+        <ul>
+            <li><a href="book_ketalog.html">BOOKS CATALOG</a>
+                <div class="sub-manu-1">
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
